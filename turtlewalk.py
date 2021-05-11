@@ -11,11 +11,7 @@ window = turtle.Screen()
 window.bgcolor(0,0,0)
 
 for i in range(2000):
-    pos = raphael.position()
-    
     new_angle = random.choice([0, 90, 180, 270])
     raphael.rt(new_angle)
     
     raphael.fd(10)
-    
-    position = raphael.pos()
